@@ -1,0 +1,63 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/17.8.0/bin/node /opt/homebrew/bin/yarn add zeromq@6.0.0-beta.6
+
+PATH: 
+  /usr/local/anaconda3/bin:/Users/saltyaom/Library/Android/sdk/platform-tools:/Users/saltyaom/Library/Android/sdk/tools:/Users/saltyaom/.local/bin:/cmdline-tools/tools/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/saltyaom/.cargo/bin:/Users/saltyaom/.yarn/bin:/Users/saltyaom/flutter/bin:/Users/saltyaom/.pub-cache/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.8.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/saltyaom/Library/Caches/Yarn/v6/npm-estraverse-4.3.0-398ad3f3c5a24948be7725e83d11a7de28cdbd1d-integrity/node_modules/estraverse/.jshintrc' -> '/Users/saltyaom/Documents/rust/bridge/node/node_modules/@typescript-eslint/utils/node_modules/estraverse/.jshintrc'
+
+npm manifest: 
+  {
+      "name": "fastify-starter",
+      "version": "1.0.0",
+      "main": "index.js",
+      "license": "MIT",
+      "scripts": {
+          "dev": "nodemon --config nodemon.json",
+          "build": "swc src -d build",
+          "start": "NODE_ENV=production node build",
+          "test": "jest"
+      },
+      "dependencies": {
+          "dotenv": "^14.3.2",
+          "fastify": "^3.27.0",
+          "fastify-helmet": "^7.0.1",
+          "fastify-static": "^4.5.0"
+      },
+      "devDependencies": {
+          "@swc/cli": "^0.1.55",
+          "@swc/core": "^1.2.135",
+          "@swc/jest": "^0.2.17",
+          "@types/jest": "^27.4.0",
+          "@types/node": "^17.0.13",
+          "@types/rimraf": "^3.0.2",
+          "@typescript-eslint/eslint-plugin": "^5.10.1",
+          "@typescript-eslint/parser": "^5.10.1",
+          "eslint": "^8.8.0",
+          "jest": "^27.4.7",
+          "nodemon": "^2.0.15",
+          "rimraf": "^3.0.2",
+          "ts-node": "^10.4.0",
+          "tsconfig-paths": "^3.12.0",
+          "typescript": "^4.5.5"
+      },
+      "engines": {
+          "node": ">=14.0.0"
+      }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
